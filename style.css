@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    background-color: lightgray;
+
+}
+
+p{
+    margin: auto;
+    background-color: LightCyan;
+    font-size: 36px;
+    text-align: center;
+    padding: 30px;
+}
+
+#printPwd{
+    display: none;
+}
+
+#printPwd.show{
+    display: block;
+
+}
+
+#pwd{
+     filter:blur(6px);
+      font-size: 38px;
+      color: grey;
+}
+
+#pwd:hover {
+    filter: blur(0px);
+    color: black;
+}
